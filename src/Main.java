@@ -6,5 +6,15 @@ public class Main {
         System.out.println("Ano de Lançamento: "+ anoDeLancamento);
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
+        //media calculada pelas 3 notas da Jaque, Paulo e Suelen
+        double  media = (9.8 + 6.3 + 8.0) / 3;
+        System.out.println(media);
+        String sinopse = """
+                Filme de aventura com galã dos anos 80
+                Muito bom!
+                Ano de lançamento:
+                """ + anoDeLancamento;
+        System.out.println(sinopse);
     }
 }
+
